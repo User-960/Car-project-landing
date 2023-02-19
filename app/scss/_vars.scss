@@ -10,3 +10,18 @@ $color-background-black: #0B0B0B;
 $color-text-grey: #363636;
 $color-text-grey-light: #959595;
 $color-text-black: #181818;
+
+/* mixins */
+@mixin drive-btn {
+  width: 290px;
+  height: 90px;
+  color: $color-white;
+  text-align: center;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid $color-white;
+  transition-duration: 0.5s;
+  &:hover {
+    background-color: $color-red-dark;
+  }
+}
