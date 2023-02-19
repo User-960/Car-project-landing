@@ -1,5 +1,4 @@
 @import 'vars';
-@import 'fonts';
 @import 'reset';
 @import 'libs';
 @import 'global';
@@ -112,9 +111,9 @@ body {
   background: $color-background-black;
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -160%;
   width: 100%;
-  transition: all .5s;
+  transition: all 1s;
   z-index: 3;
   &.active {
     left: 0;
@@ -306,3 +305,5 @@ body {
     margin-left: 105px;
   }
 }
+
+@import 'media';
