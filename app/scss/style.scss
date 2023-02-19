@@ -251,3 +251,33 @@ body {
     z-index: 10;
   }
 }
+
+.advantages {
+  margin-bottom: 100px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    grid-template-rows: 400px 400px;
+    gap: 100px 57px;
+  }
+  &__speed__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: $color-red-light;
+    margin-bottom: 101px;
+  }
+  &__speed__text {
+    max-width: 303px;
+  }
+  &__points__text {
+    max-width: 251px;
+    margin-top: 94px;
+  }
+  &__points__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: $color-red-light;
+    margin-top: 40px;
+    margin-left: 340px;
+  }
+}
