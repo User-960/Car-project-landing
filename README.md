@@ -7,7 +7,7 @@
 - Programming languages: HTML, CSS, JavaScript;
 - Task runner: Gulp;
 - Preprocessor: SCSS;
-- Libraries: Slick, Fancyapps;
+- Libraries: jQuery, Slick, Fancyapps;
 
 ## Run the commands to start the application:
 ### Clone a repository:
