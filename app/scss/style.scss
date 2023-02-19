@@ -118,6 +118,42 @@ body {
   }
 }
 
+.slider__item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+slider .slick-dots button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0B0B0B;
+  border: none;
+  padding: 0;
+  font-size: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider .slick-dots .slick-active button {
+  background-color: #FFF;
+}
+
+.slider .slick-dots li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.slider .slick-dots {
+  margin: -55px auto 0;
+  position: relative;
+  z-index: 2;
+  max-width: 1220px;
+  padding: 0 10px;
+}
+
 .statistics {
   margin: 160px 0 100px;
   &__items {
