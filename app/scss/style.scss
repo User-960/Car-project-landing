@@ -3,7 +3,6 @@
 @import 'reset';
 @import 'libs';
 @import 'global';
-@import 'slick';
 
 body {
   background-color: $color-background-black;
@@ -126,11 +125,11 @@ body {
   background-position: center;
 }
 
-slider .slick-dots button {
+.slider .slick-dots button {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #0B0B0B;
+  background-color: $color-background-black;
   border: none;
   padding: 0;
   font-size: 0;
@@ -139,7 +138,7 @@ slider .slick-dots button {
 }
 
 .slider .slick-dots .slick-active button {
-  background-color: #FFF;
+  background-color: $color-white;
 }
 
 .slider .slick-dots li {
