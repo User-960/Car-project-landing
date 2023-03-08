@@ -1,6 +1,6 @@
 # Car-project-landing
 
-The Car-project-landing is being developed for learning the assembly of the project. The main purpose of the project is to use diffrent libraties in one project.
+The Car-project-landing is being developed for learning the assembly of the project. The main purpose of the project is to use diffrent libraries in one project.
 
 What is used:
 
