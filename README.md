@@ -1,34 +1,42 @@
 # Car-project-landing
-  The Car-project-landing is being developed for learning the assembly of the project.
-  The main purpose of the project is to use diffrent libraties in one project.
-  
-  What is used:
+
+The Car-project-landing is being developed for learning the assembly of the project. The main purpose of the project is to use diffrent libraties in one project.
+
+What is used:
 
 - Programming languages: HTML, CSS, JavaScript;
 - Task runner: Gulp;
 - Preprocessor: SCSS;
 - Libraries: jQuery, Slick, Fancyapps;
 
-## Run the commands to start the application:
-### Clone a repository:
-    git clone https://github.com/User-960/Car-project-landing.git
-***
-### Installing dependencies:
-    cd Car-project-landing
-    npm install
+To clone repository
 
-    or
+```shell
+git clone https://github.com/User-960/Car-project-landing.git
+```
 
-    yarn install
-***
+To install packages, use the command
 
-### Build project:
-    gulp build
-***
+```shell
+npm install
+```
 
-\* After project build: run the file `dist/index.html` in browser
-***
+## Commands
 
-### Enable developer mode:
-    gulp
-*** 
+### Building a project without optimization and launch on server
+
+```shell
+npm run build-dev
+```
+
+### Building a project with optimization
+
+```shell
+npm run build-prod
+```
+
+### Cleaning up the dist folder
+
+```shell
+npm run clear
+```
